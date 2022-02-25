@@ -1,0 +1,57 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Advanced API Wrapper for GameTests.",
+    "name": "§l§9Slappers",
+    "uuid": "b4ce177a-af74-4586-b30e-6d9ddc3e36d9",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      14,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Advanced API Wrapper for GameTests.",
+      "type": "javascript",
+      "uuid": "95ba5af4-69b9-4d53-94e0-52a93ba56833",
+      "version": [
+        0,
+        0,
+        1
+      ],
+      "entry": "scripts/index.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "uuid": "2bd50a27-aB5f-4f40-a596-3641627c635e",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    }
+  ]
+}
