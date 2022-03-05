@@ -6,4 +6,3 @@ export const forms = {
   create,
   edit,
 }
-

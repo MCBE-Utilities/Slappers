@@ -20,14 +20,15 @@
     "pack_icon.png"
   ],
   "files": [
-    "dist"
+    "dist",
+    "Slappers.md"
   ],
   "scripts": {
     "build": "tsc && beapi build",
     "bundle": "tsc && beapi bundle"
   },
   "dependencies": {
-    "beapi-core": "file:../../../../../../../../../Desktop/BeAPI/beta/packages/beapi",
+    "beapi-core": "^2.3.0-beta.1",
     "typescript": "^4.5.4"
   }
 }
