@@ -16,7 +16,7 @@ Finally, you now have Slapper installed on your Bedrock world.
 To open the creation and edit forms, use the commands listed below.
 ```
 tag @s add "beapi:create_slapper" // Opens slapper creation form
-tag @s add "beapi:editshop" // Opens slapper editor form
+tag @s add "beapi:edit_slapper" // Opens slapper editor form
 ```
 ## Installing as a Dependency
 * Requirements
