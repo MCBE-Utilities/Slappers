@@ -1,6 +1,6 @@
 # Slappers
 
-Slappers is a [BeAPI](https://github.com/MCBE-Utilities/BeAPI) module made for creating custom server NPCs. Slappers is a very popular server plugin for both Java Edition and Bedrock Edition of Minecraft. This module allows you to create Slappers that will work on personal worlds and even bedrock realms. Here is a demo of slapper in work. ([Demo](https://www.youtube.com/watch?v=oAnWlLMuHBQ&t=46s))
+Slappers is a [BeAPI](https://github.com/MCBE-Utilities/BeAPI) module made for creating custom server NPCs. Slappers is a very popular server plugin for both Java Edition and Bedrock Edition of Minecraft. This module allows you to create Slappers that will work on personal worlds and even bedrock realms. Here is a demo of slappers in work. ([Demo](https://www.youtube.com/watch?v=oAnWlLMuHBQ&t=46s))
 
 The module can be either imported as a Minecraft Bedrock Addon or be used within another BeAPI project.
 
