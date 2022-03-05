@@ -8,13 +8,13 @@ The module can be either imported as a Minecraft Bedrock Addon or be used within
 * Requirements
   * [Minecraft Bedrock ^1.18.20.x](https://minecraft.net/)
 
-To download and install, download the latest .mcpack release from [here]().
+To download and install, download the latest .mcpack release from [here](https://github.com/MCBE-Utilities/Slappers/releases/tag/1.0.0).
 Once you have downloaded the addon, import the .mcpack into Minecraft Bedrock.
 Then, create a new world, or add to existing, and make sure to enable Gametest Framework.
 Finally, you now have Slapper installed on your Bedrock world.
 
 To open the creation and edit forms, use the commands listed below.
-```js
+```
 tag @s add "beapi:create_slapper" // Opens slapper creation form
 tag @s add "beapi:editshop" // Opens slapper editor form
 ```
