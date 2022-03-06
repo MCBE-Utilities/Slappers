@@ -1,8 +1,17 @@
 import './listeners/index.js'
 import { create, edit } from './forms/index.js'
-export { slapperModal as slappers, slapperSchema } from './database/index.js'
+import { createSlapper, removeSlapper, getAllSlappers } from './utils/index.js'
+import { slapperModal as database } from './database/index.js'
 
-export const forms = {
+const forms = {
   create,
   edit,
+}
+
+export const slappers = {
+  createSlapper,
+  removeSlapper,
+  getAllSlappers,
+  database,
+  forms,
 }
