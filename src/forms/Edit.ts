@@ -1,5 +1,6 @@
-import { client, Player } from 'beapi-core'
+import { Player } from 'beapi-core'
 import { slapperModal } from '../database/index.js'
+import { client } from '../Client.js'
 
 export function edit(player: Player): void {
     const form = player.createActionForm()
@@ -9,13 +10,13 @@ export function edit(player: Player): void {
     for (const slapper of slappers) {
         const entity = client.entities.getByUniqueId(slapper.uniqueId)
         if (entity) {
-            form.addButton(`${slapper.name}\n §aLoaded`)
+            form.addButton(`${slapper.name}\n §aLoaded§r`)
         } else {
-            form.addButton(`${slapper.name}\n §cUnloaded`)
+            form.addButton(`${slapper.name}\n §cUnloaded§r`)
         }
     }
     if (slappers.length === 0) {
-        form.body = '§cNo slappers found. Maybe try adding some?'
+        form.body = '§cNo slappers found. Maybe try adding some?§r'
         form.addButton('Exit')
     }
     form.send((res) => {

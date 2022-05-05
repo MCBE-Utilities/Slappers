@@ -1,5 +1,6 @@
-import { client, Player } from 'beapi-core'
+import { Player } from 'beapi-core'
 import { slapperModal } from '../database/index.js'
+import { client } from '../Client.js'
 
 export function create(player: Player): void {
     const form = player.createModalForm()

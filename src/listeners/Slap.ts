@@ -1,4 +1,4 @@
-import { client } from 'beapi-core'
+import { client } from '../Client.js'
 import { slapperModal } from '../database/index.js'
 
 client.on('EntityHit', (data) => {
